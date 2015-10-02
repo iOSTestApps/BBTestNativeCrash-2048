@@ -14,7 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   [BuddyBuildSDK setup];
-  
+  // uh oh  
   int * test;
   *test = 5;
   
